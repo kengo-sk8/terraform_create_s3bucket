@@ -78,6 +78,11 @@ terraform show
 
 - [Resource](https://tama-shira.github.io/note/terraform/terraform-03-resorce/)
 
+## module
+Terraformは、ソースコードをモジュール化する事ができる。モジュール化する事で、テンプレートとして使うことができる
+
+- [モジュールの使い方 - Terraformのきほんと応用](https://zenn.dev/sway/articles/terraform_biginner_modules)
+
 # 参考資料
 - [[公式]Terraform About the Docs](https://developer.hashicorp.com/terraform/docs)
 - [[公式]hashicorp/terraform-provider-aws](https://registry.terraform.io/providers/hashicorp/aws/latest)
