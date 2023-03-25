@@ -14,15 +14,15 @@ terraform init
 オプションに、`-auto-approve`を付与する事で、強制的に全ての確認を`Yes`で進める
 ```sh
 terraform plan
-
-#　-auto-approveを付与
-terraform apply -auto-approve
 ```
 
 ## terraform apply
 現状のソースコードに従って変更を適用するコマンド
 ```sh
 terraform apply
+
+#　-auto-approveを付与
+terraform apply -auto-approve
 ```
 
 ## terraform destroy
